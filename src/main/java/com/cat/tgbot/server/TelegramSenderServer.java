@@ -11,8 +11,9 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 @Component
 public class TelegramSenderServer {
     public static TelegramBotClient telegramBotClient;
-    private static final String TOKEN = "7673100781:AAF0CYU0HC6th_tTg5HeehtzBnJcacHDTkE";
-    private static final String USERNAME = "sanxiantang_Test_bot";
+    private static final String TOKEN = "your_token";
+    private static final String USERNAME = "your_username";
+
 
     @PostConstruct
     public void init(){
